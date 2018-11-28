@@ -9,9 +9,9 @@ import org.mockito.junit.*;
 public class SplitStringTest {
 
     @Test(expected = NullPointerException.class)
-	public void testSplitString(){
-	    String statusCodes = null;
-	    String status[] = statusCodes.split(",");
+    public void testSplitString(){
+        String statusCodes = null;
+        String status[] = statusCodes.split(",");
     }
 
 }
